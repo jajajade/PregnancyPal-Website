@@ -1,0 +1,47 @@
+.inner-ongoing {
+  background: #ffb5b5;
+  padding: 1em;
+  border-radius: 10px;
+  margin-left: 430px;
+  width: 500px;
+  text-align: center;
+  -webkit-clip-path: circle(10% at 90% 20%);
+          clip-path: circle(10% at 90% 20%);
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  cursor: pointer;
+}
+
+.inner-ongoing:hover {
+  -webkit-clip-path: circle(75%);
+          clip-path: circle(75%);
+  background: #407088;
+}
+
+.inner-ongoing span {
+  float: right;
+  color: white;
+  font-weight: bold;
+  font-size: 20pt;
+  -webkit-transition: color 0.5s;
+  transition: color 0.5s;
+  position: relative;
+  margin-right: 6.5%;
+  margin-top: 2.5%;
+}
+
+.inner-ongoing:hover span {
+  color: rgba(255, 255, 255, 0);
+  -webkit-transition: 0.1s;
+  transition: 0.1s;
+}
+
+.inner-ongoing p {
+  color: rgba(255, 255, 255, 0);
+  margin: 0;
+}
+
+.inner-ongoing:hover p {
+  color: white;
+}
+/*# sourceMappingURL=ongoing.css.map */
